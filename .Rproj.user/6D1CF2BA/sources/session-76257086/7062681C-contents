@@ -1,0 +1,21 @@
+---
+title: "Hello World"
+author: "Zhihu Xu"
+date: 2024-12-11
+categories: ["R"]
+tags: ["R Markdown", "Blogdown"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# Hello World
+
+Hi guys, this is my first blog post. I am using R Markdown to write this post. It is very nice to use!
+
+You can embed an R code chunk like this:                       
+
+```{r cars}
+print("Hello World!")
+```
